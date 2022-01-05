@@ -70,10 +70,10 @@ class RestaurantTest {
 
     @Test
     public void selected_item_from_list_should_return_total_cost(){
-        int totalCost = 0;
         createMockRestaurant();
-        List<String> selectedItemNames = Arrays.asList("Sweet corn soup", "Vegetable lasagne" ) ;
-        totalCost = restaurant.getTotalCost(selectedItemNames) ;
+        int totalCost = 0;
+        List<String> selectedItemNames = Arrays.asList("Sweet corn soup", "Vegetable lasagne");
+        totalCost = restaurant.getTotalCost(selectedItemNames);
         assertEquals(388, totalCost);
     }
 }
