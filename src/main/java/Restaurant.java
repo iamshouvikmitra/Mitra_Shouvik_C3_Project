@@ -66,4 +66,8 @@ public class Restaurant {
         return name;
     }
 
+    public int getTotalCost(List<String> selectedItems) {
+        int totalCostOfSelectedItems = 0;
+        return totalCostOfSelectedItems;
+    }
 }
